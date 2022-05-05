@@ -1,0 +1,339 @@
+body
+{
+    padding: 0px;
+    margin:0px;
+    background-color: rgb(14,17,17);
+    
+}
+#head_div
+{
+    
+    
+    height: 550px;
+    padding: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.navbar-toggler-icon 
+{
+    background-color: brown;
+    border-radius: 6px;
+}
+
+#navbar_home
+{
+    background-color: rgba(5, 5, 5, 0.95);
+    
+}
+
+/* -----------------------------                    -------------------                ---------       about us -------------------           ---------------       ---------*/
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+section .section-title{
+    margin-top: 20px;
+	text-align:center;
+	color:#007b5e;
+	margin-bottom:50px;
+	text-transform:uppercase;
+}
+
+
+#what-we-do .card{
+	padding: 1rem!important;
+	border: none;
+	margin-bottom:50px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+    color:darkgrey;
+}
+#what-we-do .card:hover{
+	-webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	-moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#what-we-do .card .card-block{
+	padding-left: 50px;
+    position: relative;
+}
+#what-we-do .card .card-block a{
+	color: #007b5e !important;
+	font-weight:700;
+	text-decoration:none;
+}
+#what-we-do .card .card-block a i{
+	display:none;
+	
+}
+#what-we-do .card:hover .card-block a i{
+	display:inline-block;
+	font-weight:700;
+	
+}
+#what-we-do .card .card-block:before{
+	font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #007b5e;
+    left: 0;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+#what-we-do .card .block-1:before{
+    content: "\f0e7";
+}
+#what-we-do .card .block-2:before{
+    content: "\f0eb";
+}
+#what-we-do .card .block-3:before{
+    content: "\f00c";
+}
+#what-we-do .card .block-4:before{
+    content: "\f209";
+}
+#what-we-do .card .block-5:before{
+    content: "\f0a1";
+}
+#what-we-do .card .block-6:before{
+    content: "\f218";
+}
+#what-we-do .card:hover .card-block:before{
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);	
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+/* -----------------------------                    -------------------                --------- home   -----   about    ---   contact    ---   home  -------------------           ---------------       ---------*/
+#aboutus
+{
+    
+    
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+#contactus
+{
+    
+    
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+#btn-et
+{
+    font-size: 16px;
+    text-decoration: none;
+    color: azure;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+#btn-et:hover
+{
+    background-color: black;
+    
+    
+}
+
+
+/* -----------------------------                    -------------------                ---------       contact section  -------------------           ---------------       ---------*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+#contact{
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+#contact .well{
+    margin-top:30px;
+    border-radius:0;
+    color: lavenderblush;
+}
+
+#contact .form-control{
+    border-radius: 0;
+    border:2px solid #1e1e1e;
+}
+
+#contact button{
+    background-color: lavenderblush;
+    border-radius:0;
+    border:2px solid #1e1e1e;
+}
+#contact button:hover{
+    background-color: #1e1e1e;
+    border:2px solid lavenderblush;
+    color: lavenderblush;
+}
+#contact .row{
+    margin-bottom:30px;
+}
+
+@media (max-width: 768px) { 
+    #contact iframe {
+        margin-bottom: 15px;
+    }
+    
+}
+
+
+/* -----------------------------                    -------------------                ---------       games section  -------------------           ---------------       ---------*/
+
+
+.square_btn {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 1em 0.5em;
+    text-decoration: none;
+    color: #FFF;
+    background: #ff7f7f;
+    transition: .4s;
+}
+
+.square_btn>span{
+    border-bottom: solid 2px #FFF;
+    border-top: solid 2px #FFF;
+}
+
+ .square_btn:hover span {
+    padding: 0.1em 0;
+}
+
+
+/* -----------------------------                    -------------------                ---------     login  register section  -------------------           ---------------       ---------*/
+
+#login .container #login-row #login-column #login-box {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    max-width: 600px;
+    
+    border: 1px solid #9C9C9C;
+    
+  }
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+    padding-bottom: 80px;
+  }
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -75px;
+  }
+
+  /* -----------------------------                    -------------------                ---------     change password section  -------------------           ---------------       ---------*/
+
+  .updatedVerify {
+    margin: 50px auto;
+    text-align: center;
+    position: relative;
+  }
+  
+  #container-reset-password {
+    width: 400px;
+    padding: 0px;
+    padding-bottom: 20px;
+    background: #fefefe;
+    margin: 0 auto;
+    border: 1px solid #c4cddb;
+    border-top-color: #d3dbde;
+    border-bottom-color: #bfc9dc;
+    box-shadow: 0 1px 1px #ccc;
+    border-radius: 5px;
+    position: relative;
+    transition: all 0.5s ease-in;
+  }
+  
+  .updatedVerify h1 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 24px;
+    text-align: center;
+    background: #eff4f7;
+    border-bottom: 1px solid #dde0e7;
+    box-shadow: 0 -1px 0 #fff inset;
+    border-radius: 5px 5px 0 0;
+    /* otherwise we get some uncut corners with container div */
+    text-shadow: 1px 1px 0 #fff;
+  }
+  
+  #form-reset-password ul li {
+    margin: 10px 30px;
+  }
+  
+  #form-reset-password ul li:last-child {
+    margin: 20px 0 25px 0;
+  }
+  
+  input {
+    padding: 10px 10px;
+    border: 1px solid #d5d9da;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #e8e9eb inset;
+    width: 328px;
+    font-size: 1em;
+    outline: 0;
+    /* remove webkit focus styles */
+  }
+  
+  input:focus {
+    border: 1px solid #b9d4e9;
+    border-top-color: #b6d5ea;
+    border-bottom: 4px solid pink;
+    box-shadow: 0 0 5px #b9d4e9;
+  }
+  
+  #container-reset-password span {
+    background: #f6f6f6;
+    padding: 3px 5px;
+    display: block;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  
+  .shake {
+    animation: shake 0.8s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%,
+    90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    20%,
+    80% {
+      transform: translate3d(2px, 0, 0);
+    }
+    30%,
+    50%,
+    70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+    40%,
+    60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+  
+  @keyframes grow {
+    50% {
+      transform: scale(1.1);
+    }
+  }
+
+  

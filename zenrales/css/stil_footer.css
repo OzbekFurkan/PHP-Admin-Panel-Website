@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+#cont_footer
+{
+    background-color: #16151a;
+}
+#card_footer {
+    padding: 2% 7%;
+    color: #646771;
+    background-color: #16151a;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+ul>li {
+    padding: 4px
+}
+
+ul>li:hover {
+    color: #957bda;
+    cursor: pointer
+}
+
+hr {
+    border-width: 3px
+}
+
+.social>i {
+    padding: 1%;
+    font-size: 15px
+}
+
+.social>i:hover {
+    color: #957bda;
+    cursor: pointer
+}
+
+.policy>div {
+    padding: 4px
+}
+
+.heading {
+    font-family: 'Titillium Web', sans-serif;
+    color: white
+}
+
+.divider {
+    border-top: 2px solid rgba(189, 196, 203, 0.5);
+}
+
+/* ----------------                  ---------------------          break news    -----------      ---------------         ------------ */
+
+.news {
+    width: 160px
+}
+
+.news-scroll a {
+    text-decoration: none
+}
+
+.dot {
+    height: 6px;
+    width: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 2px !important;
+    background-color: rgb(207, 23, 23);
+    border-radius: 50%;
+    display: inline-block
+}
+
+/* ----------------                  ---------------------          subscribe    -----------      ---------------         ------------ */
+
+.card {
+    background-color: #222222;
+    border: none;
+    font-family: 'Manrope', sans-serif
+}
+
+.fa {
+    color: #d9d5d5
+}
+
+#inp1 {
+    background-color: #222222;
+    border: 1px solid #636161;
+    font-size: 16px;
+    color: #d9d5d5;
+}
+
+#inp1:focus {
+    outline: none;
+    box-shadow: none;
+
+}
+
+#btn_sub {
+    background-color: #5c72d8;
+    font-size: 0.78rem;
+    border: 0px;
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+}
+
+#btn_sub:focus {
+    outline: none;
+    box-shadow: none
+}
+
+*:focus {
+    outline: none
+}
